@@ -643,4 +643,10 @@ Error was not adding system assembly reference into product.cs file..
 
 Then also modified product.js file again..and Commit the code on GitHub repository..
 
+Tried to solve the error and it shown in HomeController.cs at the last..
+So modify the code in it and update the database again if there could also be some problem so..
+
+And as I tried to run this project, IT WORKED FINALLY..So happy to see.. 
+
+
 
