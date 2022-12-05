@@ -571,6 +571,25 @@ Did again due to the same error
 Now added validation migration to it
 ******20221205111822_ValidationToProduct******
 
-and update the database for both..
+and update the database for both and commit to the GitHub..
+
+Added last files for classes and interfaces and modify them for Product table:
+- Repository.cs for classes
+	- CategoryRepository.cs
+	- CoverTypeRepository.cs
+	- ProductRepository.cs
+	- Repository.cs
+	- SP_Call.cs
+	- UnitOfWork.cs
+
+- IRepository.cs for interfaces 
+	- ICategoryRepository.cs
+	- ICoverTypeRepository.cs
+	- IProductRepository.cs
+	- IRepository.cs
+	- ISP_Call.cs
+	- IUnitOfWork.cs
+
+No errors found.. Commit to the GitHub and UPDATE README...
 
 
