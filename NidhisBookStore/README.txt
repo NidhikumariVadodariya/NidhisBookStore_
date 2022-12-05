@@ -451,7 +451,7 @@ Sleeping time..
 
 2022-12-05
 1:30AM
-Old project was gone so made new one and copied old readme and pasted it in new repository and commit all the things..
+Old project was gone so made new one and copied old readme and pasted it in new repository NidhisBookStore_ and commit all the things..
 
 Started new PART 1
 and going further and commiting the things along with the changes into files and folders just like old one..
@@ -469,7 +469,7 @@ Application run successfully..
 Made SD.cs file ang give reference to the .Utility project from the main NidhisBookStore project.. UPDATE README
 
 Move HomeController folder to the new Cistomer area that is being made into Areas folder in general main project and modify Startup.cs file with {area=Customer} and Edit code into the moved HomeContoller.cs.. UPDATED README..
-
+Make new Admin area like Customer and Added new Files into View folder and deleted Data and View folder like Customer.UPDATE README..
 
 
 

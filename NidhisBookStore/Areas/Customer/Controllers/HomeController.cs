@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using NidhisBookStore.Models;
-using NidhisBookStore.Models.ViewModels;
+//using NidhisBookStore.Models.ViewModels;
 
-namespace NidhisBookStore.Controllers
+namespace NidhisBookStore.Area.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -32,7 +33,7 @@ namespace NidhisBookStore.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(new Models.ViewModels.ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
