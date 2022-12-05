@@ -648,5 +648,10 @@ So modify the code in it and update the database again if there could also be so
 
 And as I tried to run this project, IT WORKED FINALLY..So happy to see.. 
 
+Run and add Category, CoverType and in Product as well so that I can see added category..
 
+Project Worked Successfully and added image into HomePage as well..
+
+Good to end and Happy ending..
+Done for the part 4
 
