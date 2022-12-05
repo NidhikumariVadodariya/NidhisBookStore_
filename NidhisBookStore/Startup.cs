@@ -11,7 +11,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using NidhisBookStore.Data;
+// using NidhisBookStore.Data;
+using NidhisBookStore.DataAccess.Data;
 
 namespace NidhisBookStore
 {

@@ -464,3 +464,7 @@ Its time to add all three new projects..
 
 Added Data folder and delete old one and new nuget packages and change namespace for reflection of .DataAccess and deleted all three class1 files from this.. UPDATED README..
 Move Models folder to NidhisBooks.Models project and make neccessary changes into ErrorViewModel.cs file and give reference and change Models folder name to ViewModels ... and added project references as well..UPDATED README file..
+Added assembly reference to HomeCOntroller.cs and Startup.cs file as well...
+
+
+

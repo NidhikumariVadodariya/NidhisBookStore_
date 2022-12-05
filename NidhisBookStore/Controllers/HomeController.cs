@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using NidhisBookStore.Models;
+using NidhisBookStore.Models.ViewModels;
 
 namespace NidhisBookStore.Controllers
 {
