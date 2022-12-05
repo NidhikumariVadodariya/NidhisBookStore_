@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\NidhisBooks.DataAccess\NidhisBooks.DataAccess.csproj" />
     <ProjectReference Include="..\NidhisBooks.Models\NidhisBooks.Models.csproj" />
+    <ProjectReference Include="..\NidhisBooks.Utility\NidhisBooks.Utility.csproj" />
   </ItemGroup>
 
 </Project>
