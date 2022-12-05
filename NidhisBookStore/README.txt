@@ -615,7 +615,13 @@ Download the given repository and look what needs to be changed..
 First I added the rest of the fields given in Produt.cs file for Price, Price50, and Price100 and give required validation to it..
 then update-database but unfortunately was not worked and created an empty migration file..So I copied code from the given and did update-database...
 
+TIMESTAMP OF THE MIGRATION IS :
+******20221205134646_AddProductToDb.cs******
 
+Then Updated the second validation database
+TIMESTAMP OF THE VALIDATION MIGRATION IS :
+******20221205135027_AddValidationToProduct.cs******
 
-
+Third SQL one MIGRATION'S TIMESTAMP IS :
+******20221205154814_AddStoredProcForCoverType.cs******
 
