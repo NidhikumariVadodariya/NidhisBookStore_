@@ -606,4 +606,16 @@ Try to add product entry and update the database for new fields.. could not succ
 - UnitOfWork class
 - IUnitOfWork interface
 
-Did try but not getting an image in product page while runing..UPDATE README..
+Did try but not getting an image in product page while runing..NOT UPDATE README..
+
+Breif README:
+
+Download the given repository and look what needs to be changed..
+
+First I added the rest of the fields given in Produt.cs file for Price, Price50, and Price100 and give required validation to it..
+then update-database but unfortunately was not worked and created an empty migration file..So I copied code from the given and did update-database...
+
+
+
+
+
