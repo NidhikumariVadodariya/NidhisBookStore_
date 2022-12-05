@@ -625,3 +625,11 @@ TIMESTAMP OF THE VALIDATION MIGRATION IS :
 Third SQL one MIGRATION'S TIMESTAMP IS :
 ******20221205154814_AddStoredProcForCoverType.cs******
 
+Make changes into the other files..
+Make changes into ProductRepository.cs for adding a new product's columns which I then did update-database as well
+
+Add code into .Utility project's SD.cs file which will help to add, update, edit, and delete the references from the database..
+
+
+
+

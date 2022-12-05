@@ -1,5 +1,4 @@
-﻿//using NidhisBooks.DataAccess.Data;
-using NidhisBooks.DataAccess.Repository.IRepository;
+﻿using NidhisBooks.DataAccess.Repository.IRepository;
 using NidhisBooks.Models;
 using NidhisBookStore.DataAccess.Data;
 using System;
