@@ -11,6 +11,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NidhisBooks.DataAccess.Repository;
+using NidhisBooks.DataAccess.Repository.IRepository;
 // using NidhisBookStore.Data;
 using NidhisBookStore.DataAccess.Data;
 
@@ -34,6 +36,7 @@ namespace NidhisBookStore
            // services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true) for database connection remove this line
                 services.AddDefaultIdentity<IdentityUser>() //options => options.SignIn.RequireConfirmedAccount = true
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

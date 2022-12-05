@@ -483,9 +483,24 @@ Change database name..
 
 ******20221205084805_AddCategoryToDb****** add migration for Category table.. UPDATE DATABASE AND README.. and making sure that got category table into SQL SOE and deleted old database..
 
-Added Repository and IRepository folder and added neccesary files and modify them accordingly like before:
+Added Repository and IRepository folder and added neccesary files and modify them accordingly like before in to NidhisBooks.DataAccess project:
 - Repository.cs for classes
 	- CategoryRepository.cs
+	- Repository.cs
 
-- IRepository.cs for interfaces
+- IRepository.cs for interfaces 
 	- ICategoryRepository.cs
+	- IRepository.cs
+
+Added another files for classes and interfaces and modify them:
+- Repository.cs for classes
+	- CategoryRepository.cs
+	- Repository.cs
+	- SP_Call.cs
+	- UnitOfWork.cs
+
+- IRepository.cs for interfaces 
+	- ICategoryRepository.cs
+	- IRepository.cs
+	- ISP_Call.cs
+	- IUnitOfWork.cs
