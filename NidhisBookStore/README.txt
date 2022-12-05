@@ -506,3 +506,6 @@ Added another files for classes and interfaces and modify them:
 	- IUnitOfWork.cs
 
 There are no errors and build successfully project..
+
+Now its time for Category CRUD operation..
+Added new folder to the VIews into Areas/Admin and created Index.cshtml view inside and update the code given..UPDATE README...
