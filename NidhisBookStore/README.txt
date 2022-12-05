@@ -562,7 +562,9 @@ Add migration for Product.cs by changing into the ApplicationDbContext.cs
 and this is the TIMESTAMP
  ******20221205104257_addProductToDb.cs******
 
+Add product migration again due to error in table and database.. now run successfully... UPDATE README...
 
+******20221205110804_addProductToDb.cs******
 
 
 
