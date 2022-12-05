@@ -479,9 +479,11 @@ Project is running successfully without errors and going continue as like before
 Now I am going to create database..
 Change database name..
 
-******20221205081355_AddDefaultIdentityMigration****** - add migration for Default Identity
+Modify ApplicationDbContext.cs 
 
-******20221205084805_AddCategoryToDb****** add migration for Category table.. UPDATE DATABASE AND README.. and making sure that got category table into SQL SOE and deleted old database..
+******20221205081355_AddDefaultIdentityMigration.cs****** - add migration for Default Identity
+
+******20221205084805_AddCategoryToDb.cs****** add migration for Category table.. UPDATE DATABASE AND README.. and making sure that got category table into SQL SOE and deleted old database..
 
 Added Repository and IRepository folder and added neccesary files and modify them accordingly like before in to NidhisBooks.DataAccess project:
 - Repository.cs for classes
@@ -511,5 +513,19 @@ Now its time for Category CRUD operation..
 Added new folder to the VIews into Areas/Admin and created Index.cshtml view inside and update the code given..UPDATE README...
 Addedd now category.js file into wwwroot folder and moved code from index.cshtml to category.js file and add delete function..UPDATE README...
 Update the code for Create Edit and Delete the Category from the Table and make sure to enter into database as well..
+
+Now its time to add the same like Category for CoverType..
+
+3:00 AM
+Started new PART 2 of the assignment
+and going further and commiting the things along with the changes into files and folders just like old one..
+Project is running successfully without errors and going continue as like before..
+
+Now I am going to create database for CoverType..
+Modify the code for CoverType.cs and ApplicationDbContext.cs add migration : 
+
+******20221205100502_AddCoverTypeIntoDb.cs****** for CoverType and Update readme..
+
+
 
 
