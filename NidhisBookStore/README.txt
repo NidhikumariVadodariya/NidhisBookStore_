@@ -509,3 +509,7 @@ There are no errors and build successfully project..
 
 Now its time for Category CRUD operation..
 Added new folder to the VIews into Areas/Admin and created Index.cshtml view inside and update the code given..UPDATE README...
+Addedd now category.js file into wwwroot folder and moved code from index.cshtml to category.js file and add delete function..UPDATE README...
+
+
+
