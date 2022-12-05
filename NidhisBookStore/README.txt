@@ -480,7 +480,7 @@ Now I am going to create database..
 Change database name..
 
 Modify ApplicationDbContext.cs 
-
+and this is the TIMESTAMPS
 ******20221205081355_AddDefaultIdentityMigration.cs****** - add migration for Default Identity
 
 ******20221205084805_AddCategoryToDb.cs****** add migration for Category table.. UPDATE DATABASE AND README.. and making sure that got category table into SQL SOE and deleted old database..
@@ -523,7 +523,7 @@ Project is running successfully without errors and going continue as like before
 
 Now I am going to create database for CoverType..
 Modify the code for CoverType.cs and ApplicationDbContext.cs add migration : 
-
+and this is the TIMESTAMP
 ******20221205100502_AddCoverTypeIntoDb.cs****** for CoverType and Update readme..
 
 Added more files for classes and interfaces and modify them for CoverType table:
@@ -558,7 +558,9 @@ and going further and commiting the things along with the changes into files and
 Project is running successfully without errors and going continue as like before..
 
 Create Product.cs file into .Models project.. Commit to the GitHub..
-
+Add migration for Product.cs by changing into the ApplicationDbContext.cs
+and this is the TIMESTAMP
+ ******20221205104257_addProductToDb.cs******
 
 
 
