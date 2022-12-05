@@ -597,7 +597,12 @@ Completed Untill Part 3 with ni errors in the application as submitted in the cl
 PART 4 : Code completion from the GitHub repository
 -------------------------------------------------------------------
 
+Try to add product entry and update the database for new fields.. could not succeed..make changes in every files of the product..
 
-
-
+- Product.cs
+- ApplicationDbContext.cs
+- ProductRepository.cs
+- IProductRepository.cs
+- UnitOfWork class
+- IUnitOfWork interface
 

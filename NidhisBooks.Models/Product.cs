@@ -22,6 +22,15 @@ namespace NidhisBooks.Models
         [Required]
         [Range(1, 10000)]
         public double ListPrice { get; set; }
+        [Required]
+        [Range(1, 10000)]
+        public double Price { get; set; }
+        [Required]
+        [Range(1, 10000)]
+        public double Price50 { get; set; }
+        [Required]
+        [Range(1, 10000)]
+        public double Price100 { get; set; }
         public string ImageUrl { get; set; }
         [Required]
         public int CategoryId { get; set; }

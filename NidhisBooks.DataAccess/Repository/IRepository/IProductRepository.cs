@@ -1,8 +1,8 @@
-﻿using System;
+﻿using NidhisBooks.Models;
+using System;
 using System.Collections.Generic;
-using System.Text;
-using NidhisBooks.Models;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace NidhisBooks.DataAccess.Repository.IRepository
@@ -11,4 +11,5 @@ namespace NidhisBooks.DataAccess.Repository.IRepository
     {
         void Update(Product product);
     }
+
 }
