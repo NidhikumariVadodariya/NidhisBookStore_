@@ -630,6 +630,9 @@ Make changes into ProductRepository.cs for adding a new product's columns which 
 
 Add code into .Utility project's SD.cs file which will help to add, update, edit, and delete the references from the database..
 
+Tried to run the project but had an exception error in Product's folder's for Model into Upsert.cshtml..
+ Again re-check the migration files and wrote codes again for all the product files..
+ and run the project but still was not working..
 
 
 
