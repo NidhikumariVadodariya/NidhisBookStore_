@@ -10,8 +10,8 @@ using NidhisBookStore.DataAccess.Data;
 namespace NidhisBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221205110804_addProductToDb")]
-    partial class addProductToDb
+    [Migration("20221205111822_ValidationToProduct")]
+    partial class ValidationToProduct
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -565,8 +565,12 @@ and this is the TIMESTAMP
 Add product migration again due to error in table and database.. now run successfully... UPDATE README...
 
 ******20221205110804_addProductToDb.cs******
+Did again due to the same error
+******20221205111602_addProductToDb.cs******
 
+Now added validation migration to it
+******20221205111822_ValidationToProduct******
 
-
+and update the database for both..
 
 

@@ -20,7 +20,7 @@ namespace NidhisBooks.DataAccess.Repository
 
             CoverType = new CoverTypeRepository(_db);
 
-            //Product = new ProductRepository(_db);
+            // Product = new ProductRepository(_db);
 
             SP_Call = new SP_Call(_db);
         }
