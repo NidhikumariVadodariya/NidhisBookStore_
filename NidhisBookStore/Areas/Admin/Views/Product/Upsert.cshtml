@@ -1,7 +1,9 @@
 ﻿@model NidhisBooks.Models.ViewModels.ProductVM
 
-@{ Layout = "~/Views/Shared/_Layout.cshtml";
-    var title = "Create Product"; }
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Create Product";
+}
 
 <form method="post" enctype="multipart/form-data">
     <div class="row p-3 border">
@@ -10,7 +12,8 @@
         {
             // edit
             title = "Edit Product";
-<input type="hidden" asp-for="Product.Id" />}
+            <input type="hidden" asp-for="Product.Id" />
+        }
         <div class="col-12 border-bottom">
             <h2 class="text-primary">@title</h2>
         </div>
@@ -93,7 +96,7 @@
                 </div>
                 <div class="col-8">
                     @Html.DropDownListFor(m => m.Product.CategoryId, Model.CategoryList, "-Select a Category",
-                             new { @class = "form-control" })
+                   new { @class = "form-control" })
                     <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
                 </div>
             </div>
@@ -103,7 +106,7 @@
                 </div>
                 <div class="col-8">
                     @Html.DropDownListFor(m => m.Product.CoverTypeId, Model.CoverTypeList, "-Select a Cover Type",
-                             new { @class = "form-control" })
+                   new { @class = "form-control" })
                     <span asp-validation-for="Product.CoverTypeId" class="text-danger"></span>
                 </div>
             </div>
@@ -119,45 +122,47 @@
                 <div class="col-8 offset-4">
                     @if (Model.Product.Id != 0)
                     {
-        <partial name="_EditAndBackToListButton" model="Model.Product.Id" /> }
-    else
-    {
-<div class="row">
-    <div class="col">
-        <button type="submit" onclick="return validateInput()" class="btn btn-primary form-control">Create</button>
-    </div>
-    <div class="col">
-        <a asp-action="Index" class="btn btn-success form-control">Back to List</a>
-    </div>
-</div>}
+                        <partial name="_EditAndBackToListButton" model="Model.Product.Id" />
+                    }
+                    else
+                    {
+                        <div class="row">
+                            <div class="col">
+                                <button type="submit" onclick="return validateInput()" class="btn btn-primary form-control">Create</button>
+                            </div>
+                            <div class="col">
+                                <a asp-action="Index" class="btn btn-success form-control">Back to List</a>
+                            </div>
+                        </div>
+                    }
                 </div>
             </div>
         </div>
         @if (Model.Product.Id != 0)
         {
-<div class="col-3 offset-1 pt-4">
-    <img src="@Model.Product.ImageUrl" width="100%" style="border-radius:5px; border:1px solid #bbb9b9" />
-</div>      }
+            <div class="col-3 offset-1 pt-4">
+                <img src="@Model.Product.ImageUrl" width="100%" style="border-radius:5px; border:1px solid #bbb9b9" />
+            </div>
+        }
     </div>
 </form>
 
 @section Scripts{
     <partial name="_ValidationScriptsPartial" />
-    <script src="https://cdn.tiny.cloud/1/qm3bslb120muwfpuazh4qy8wco4thb9wt5h8zymhzyr99fr5/tinymce/6/tinymce.min.js" /></script>
+    <script src="https://cdn.tiny.cloud/1/n94ifuzvl80pchikopiwgz2esrw8n28dwcywvpejlqrregfp/tinymce/5/tinymce.min.js"></script>
 
     <script>
-    tinymce.init({
+        tinymce.init({
             selector: 'textarea',
             plugins: 'lists',
             menubar: 'file edit format'
         });
-
-
         function validateInput() {
             if (document.getElementById("uploadBox").value == "") {
                 swal("Error", "Please select an image", "error");
                 return false;
             }
             return true;
-        }</script>
+        }
+    </script>
 }

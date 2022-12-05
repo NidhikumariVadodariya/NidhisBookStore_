@@ -1,5 +1,6 @@
 ﻿using NidhisBooks.DataAccess.Repository.IRepository;
 using NidhisBooks.Models;
+using NidhisBooks.Models.ViewModels;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -8,9 +9,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using NidhisBooks.Models.ViewModels;
 
-namespace NidhisBookStore.Areas.Admin.Controllers
+namespace PoonamsBookStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class ProductController : Controller
