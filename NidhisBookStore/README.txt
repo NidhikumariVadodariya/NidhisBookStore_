@@ -468,5 +468,9 @@ Added assembly reference to HomeCOntroller.cs and Startup.cs file as well...
 Application run successfully..
 Made SD.cs file ang give reference to the .Utility project from the main NidhisBookStore project.. UPDATE README
 
+Move HomeController folder to the new Cistomer area that is being made into Areas folder in general main project and modify Startup.cs file with {area=Customer} and Edit code into the moved HomeContoller.cs.. UPDATED README..
+
+
+
 
 
