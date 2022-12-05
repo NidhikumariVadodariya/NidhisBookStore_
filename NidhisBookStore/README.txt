@@ -636,3 +636,11 @@ and run the project but still was not working..
 
 Then suddenly I appeared some changes in Products's Index.cshtml file and I did whole code as the same given and COMMIT the changes into GitHub..
 
+Then Tried to Run the project after doing update-database but it took long toexecute the program..
+But when It run, the exception thrown and I solved it by searching the error on internet..
+
+Error was not adding system assembly reference into product.cs file..
+
+Then also modified product.js file again..and Commit the code on GitHub repository..
+
+
