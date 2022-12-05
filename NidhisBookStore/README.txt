@@ -479,8 +479,8 @@ Project is running successfully without errors and going continue as like before
 Now I am going to create database..
 Change database name..
 
-******20221205081355_AddDefaultIdentityMigration****** - add migration
+******20221205081355_AddDefaultIdentityMigration****** - add migration for Default Identity
 
-
+******20221205084805_AddCategoryToDb****** add migration for Category table.. UPDATE DATABASE AND README.. and making sure that got category table into SQL SOE and deleted old database..
 
 
