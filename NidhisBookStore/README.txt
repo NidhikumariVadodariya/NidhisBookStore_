@@ -606,3 +606,4 @@ Try to add product entry and update the database for new fields.. could not succ
 - UnitOfWork class
 - IUnitOfWork interface
 
+Did try but not getting an image in product page while runing..UPDATE README..
