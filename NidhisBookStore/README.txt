@@ -653,5 +653,5 @@ Run and add Category, CoverType and in Product as well so that I can see added c
 Project Worked Successfully and added image into HomePage as well..
 
 Good to end and Happy ending..
-Done for the part 4
+Done for the part 4...
 
