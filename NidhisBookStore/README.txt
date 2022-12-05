@@ -526,6 +526,21 @@ Modify the code for CoverType.cs and ApplicationDbContext.cs add migration :
 
 ******20221205100502_AddCoverTypeIntoDb.cs****** for CoverType and Update readme..
 
+Added more files for classes and interfaces and modify them for CoverType table:
+- Repository.cs for classes
+	- CategoryRepository.cs
+	- CoverTypeRepository.cs
+	- Repository.cs
+	- SP_Call.cs
+	- UnitOfWork.cs
+
+- IRepository.cs for interfaces 
+	- ICategoryRepository.cs
+	- ICoverTypeRepository.cs
+	- IRepository.cs
+	- ISP_Call.cs
+	- IUnitOfWork.cs
+
 
 
 

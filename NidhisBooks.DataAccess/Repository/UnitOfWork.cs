@@ -18,7 +18,7 @@ namespace NidhisBooks.DataAccess.Repository
 
             Category = new CategoryRepository(_db);
 
-            //CoverType = new CoverTypeRepository(_db);
+            CoverType = new CoverTypeRepository(_db);
 
             //Product = new ProductRepository(_db);
 
@@ -26,7 +26,7 @@ namespace NidhisBooks.DataAccess.Repository
         }
 
         public ICategoryRepository Category { get; private set; }
-        //public ICoverTypeRepository CoverType { get; private set; }
+        public ICoverTypeRepository CoverType { get; private set; }
         //public IProductRepository Product { get; private set; }
         public ISP_Call SP_Call { get; private set; }
 
