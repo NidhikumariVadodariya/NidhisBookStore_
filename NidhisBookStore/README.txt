@@ -551,3 +551,18 @@ UPDATE README..for covertype.js file into wwwroot folder..
 
 Add code for Edit and Delete similar kind of Category and it works for CoverType..
 Project Run Successfully till CoverType..UPDATE README..
+
+5:00 AM
+Started new PART 3 of the assignment
+and going further and commiting the things along with the changes into files and folders just like old one..
+Project is running successfully without errors and going continue as like before..
+
+Create Product.cs file into .Models project.. Commit to the GitHub..
+
+
+
+
+
+
+
+
