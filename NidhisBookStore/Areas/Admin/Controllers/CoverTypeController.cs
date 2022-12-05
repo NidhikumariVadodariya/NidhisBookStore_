@@ -23,45 +23,45 @@ namespace NidhisBookStore.Areas.Admin.Controllers
             return View();
         }
 
-        //public IActionResult Upsert(int? id)
-        //{
-        //    CoverType covertype = new CoverType();
-        //    if (id == null)
-        //    {
-        //        return View(covertype);
-        //    }
-        //    covertype = _unitOfWork.CoverType.Get(id.GetValueOrDefault());
-        //    if (covertype == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return View(covertype);
-        //}
+        public IActionResult Upsert(int? id)
+        {
+            CoverType covertype = new CoverType();
+            if (id == null)
+            {
+                return View(covertype);
+            }
+            covertype = _unitOfWork.CoverType.Get(id.GetValueOrDefault());
+            if (covertype == null)
+            {
+                return NotFound();
+            }
+            return View(covertype);
+        }
 
 
-        //// use HTTP POST to define the post-action method
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public IActionResult Upsert(CoverType covertype)
-        //{
-        //    if (ModelState.IsValid) //checks all validations in the model (e.g. Name required) to increase security
-        //    {
-        //        if (covertype.Id == 0)
-        //        {
-        //            _unitOfWork.CoverType.Add(covertype);
+        // use HTTP POST to define the post-action method
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert(CoverType covertype)
+        {
+            if (ModelState.IsValid) //checks all validations in the model (e.g. Name required) to increase security
+            {
+                if (covertype.Id == 0)
+                {
+                    _unitOfWork.CoverType.Add(covertype);
 
-        //        }
-        //        else
-        //        {
-        //            _unitOfWork.CoverType.Update(covertype);
-        //        }
-        //        _unitOfWork.Save();
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    return View(covertype);
-        //}
+                }
+                else
+                {
+                    _unitOfWork.CoverType.Update(covertype);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(covertype);
+        }
 
-        // API calls here
+        //API calls here
 
         #region API CALLS
         [HttpGet]

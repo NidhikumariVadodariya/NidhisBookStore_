@@ -547,4 +547,7 @@ Now its time for CoverType CRUD operation..
 Added new folder to the VIews into Areas/Admin and created Index.cshtml and Upsert.cshtml view inside and update the code given for CoverType..UPDATE README...
 
 Created Index.cshtml View to the new folder CoverType and move code to the covertype.js file and made neccesary codeinto it like above..
-UPDATE README..for covertype.js file into wwwroot folder
+UPDATE README..for covertype.js file into wwwroot folder..
+
+Add code for Edit and Delete similar kind of Category and it works for CoverType..
+Project Run Successfully till CoverType..UPDATE README..
