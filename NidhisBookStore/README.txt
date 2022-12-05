@@ -453,7 +453,7 @@ Sleeping time..
 1:30AM
 Old project was gone so made new one and copied old readme and pasted it in new repository NidhisBookStore_ and commit all the things..
 
-Started new PART 1
+Started new PART 1 of the assignment
 and going further and commiting the things along with the changes into files and folders just like old one..
 Project is running successfully without errors and going continue as like before..
 
@@ -471,6 +471,10 @@ Made SD.cs file ang give reference to the .Utility project from the main NidhisB
 Move HomeController folder to the new Cistomer area that is being made into Areas folder in general main project and modify Startup.cs file with {area=Customer} and Edit code into the moved HomeContoller.cs.. UPDATED README..
 Make new Admin area like Customer and Added new Files into View folder and deleted Data and View folder like Customer.UPDATE README..
 
+3:00 AM
+Started new PART 2 of the assignment
+and going further and commiting the things along with the changes into files and folders just like old one..
+Project is running successfully without errors and going continue as like before..
 
 
 
