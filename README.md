@@ -8,4 +8,4 @@ Then made migrations for all of three with validations for all three tables.
 
 Make CRUD operations for Category, CoverType and Product tables through which Create, Edit, Update, and Delete operations could be possible.
 
-Final output could be seen to the homepage of the applications..
+Final output could be seen to the homepage of the application..
