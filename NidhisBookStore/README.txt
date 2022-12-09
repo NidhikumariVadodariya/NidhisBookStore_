@@ -668,5 +668,7 @@ Added four pictures and descriptions on the home page for final output..
 
 Tried to create the link and publish the repository on Azure but not succeeded..
 
-Run project successfully.. UPDATED README, MADE REPOSITORY PUBLIC AND SUBMITTING ON THE SUBMISSION SLOT...
+Azur link published successfully with this link "https://nidhisbookstore.azurewebsites.net" but still not able to browse and error of page not found..
+
+Run project successfully.. UPDATED README, MADE REPOSITORY PUBLIC , MADE README.MD FILE AND SUBMITTING ON THE SUBMISSION SLOT...
 
