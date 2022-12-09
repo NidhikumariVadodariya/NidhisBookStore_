@@ -595,6 +595,7 @@ No errors found.. Commit to the GitHub and UPDATE README...
 Completed Untill Part 3 with ni errors in the application as submitted in the class, application run successfully..
 
 PART 4 : Code completion from the GitHub repository
+8:45 AM
 -------------------------------------------------------------------
 
 Try to add product entry and update the database for new fields.. could not succeed..make changes in every files of the product..
@@ -656,6 +657,16 @@ Good to end and Happy ending..
 Done for the part 4...
 
 Part 5 Last part for detailed README
+2022-12-9
+12:00PM
 -------------------------------------------------------------------
 
-...
+Already the detailed README with dates and timeslots...
+All set to the publish the repository..
+
+Added four pictures and descriptions on the home page for final output..
+
+Tried to create the link and publish the repository on Azure but not succeeded..
+
+Run project successfully.. UPDATED README, MADE REPOSITORY PUBLIC AND SUBMITTING ON THE SUBMISSION SLOT...
+
